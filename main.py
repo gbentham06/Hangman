@@ -14,7 +14,6 @@ def game(target) -> bool:
     guesses = int(input("how many guesses? "))
     while True:
         print(f'{guesses} guesses left')
-        print(base)
         print(''.join(base))
         guess = input()[0]
         # guard clause for no matches & loss condition
